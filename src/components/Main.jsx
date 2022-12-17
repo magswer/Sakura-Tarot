@@ -1,6 +1,6 @@
 import React,  { useState } from 'react'
 import GetCards from '../services/functions'
-import '../styles/main'
+import '../styles/main.css'
 
 function Main() {
     const [cards, setCards] = useState(null);
@@ -8,6 +8,7 @@ function Main() {
 
   return (
     <>
+    <h3>Escoge 3 cartas:</h3>
     <div className = "container">
         {cards !== null
         ? cards.map((card) => (
