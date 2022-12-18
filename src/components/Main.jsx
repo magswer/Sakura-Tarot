@@ -1,6 +1,6 @@
 import React,  { useState } from 'react'
 import GetCards from '../services/functions'
-import '../styles/main'
+import '../styles/main.css'
 
 function Main() {
     const [cards, setCards] = useState(null);
