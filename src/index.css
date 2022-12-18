@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500&display=swap');
 
 @media screen and (max-width:992px) {
-  @import '../styles/main.css';
+@import '../styles/main.css';
   *{
       margin: 0;
       padding: 0;

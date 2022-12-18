@@ -4,6 +4,7 @@
 h3 {
     margin: 1rem; 
    text-align: center;
+   font-family: 'Cinzel', serif; 
 }
 .container {
     display: flex;
