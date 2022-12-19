@@ -12,10 +12,10 @@ function Main() {
     <div className = "container">
         {cards !== null
         ? cards.map((card) => (
-            <div key= {card.id}>
-                    <img src={card.cardsReverse.clowReverse} alt= {card.spanishName} />
+           <div key= {card.id}>
+                   <img src={card.cardsReverse.clowReverse} alt= {card.spanishName} />
 
-            </div>
+           </div>
         ))
         
       : "No hay cards"  }

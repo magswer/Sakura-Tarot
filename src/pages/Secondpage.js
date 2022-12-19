@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../components/Header';
+import Cardbox from '../components/Cardbox';
 
 function Secondpage() {
   return (
-    <div>Secondpage</div>
+    <>
+    <Header />
+    <Cardbox />
+    </>
   )
 }
 
