@@ -4,9 +4,9 @@ import '../styles/button.css'
 function Button() {
   return (
     <>
-    <container-button>
+    <div className= 'container-button'>
         <button>Ver la lectura de las cartas</button>
-    </container-button>
+    </div>
     </>
   )
 }
