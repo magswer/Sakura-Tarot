@@ -18,10 +18,15 @@
         justify-self: center;
         font-family: Cinzel, senrif;
     }
+
+    button:link, button:visited, button:active{
+        text-decoration: none;
+      }
 }
 
 @media screen and (max-width:1440px) {
-    container-button {
+    
+    .container-button {
 
         display: flex;
         align-content: center;
@@ -37,6 +42,11 @@
         border-radius: 10px;
         justify-self: center;
         font-family: Cinzel, senrif;
+        text-decoration: none;
         
     }
+    button:link, button:visited, button:active{
+        text-decoration: none;
+      }
+    
 }
