@@ -1,4 +1,60 @@
+@import '../index.css';
+@media screen and (max-width:992px) {
+
+h3 {
+    margin: 1rem; 
+   text-align: center;
+   font-family: 'Cinzel', serif; 
+   margin-top: 3rem;
+   font-size: 1.2rem;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 2rem;
+}
+img {
+    padding: 0.2rem;
+    height: 150px;
+    width: auto;
+    border-radius: 8px;
+}
+img:hover{
+    height: 160px;
+    width: auto; 
+    background-color: red;
+    border-radius: 8px;
+}
+}
+
+@media screen and (max-width:1440px) {
+    h3 {
+        margin: 1rem; 
+       text-align: center;
+       font-family: 'Cinzel', serif; 
+       margin-top: 3rem;
+       font-size: 1.2rem;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        margin: 2rem;
+    }
+    img {
+        padding: 0.2rem;
+        height: 150px;
+        width: auto;
+        border-radius: 8px;
+    }
+    img:hover{
+        height: 160px;
+        width: auto; 
+        background-color: red;
+        border-radius: 8px;
+    }
+
 }

@@ -8,6 +8,7 @@ function Main() {
 
   return (
     <>
+    <h3>Escoge 3 cartas:</h3>
     <div className = "container">
         {cards !== null
         ? cards.map((card) => (
