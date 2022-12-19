@@ -1,8 +1,14 @@
 import React from 'react'
+import '../styles/header.css'
 
 function Header() {
   return (
-    <div>Header</div>
+    <>
+    <header>
+      <h1>Tarot</h1>
+      <p>No vivas con incertidumbre</p>
+    </header>
+    </>
   )
 }
 

@@ -1,0 +1,10 @@
+@import '../index.css';
+@media screen and (max-width:992px) {
+
+    .cardbox {
+        background-color: #F0DEBB;
+    }
+}
+
+@media screen and (max-width:1440px) {
+}
