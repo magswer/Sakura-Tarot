@@ -10,7 +10,7 @@ function App() {
     <>
     <Header />
     <Main />
-    <Link to='/Secondpage'><Button /></Link>
+    <Link to='/Secondpage'><Button disabled = {true} /></Link>
     
     </>
 
