@@ -1,13 +1,18 @@
-import React from 'react'
+import React from 'react';
 import Header from '../components/Header';
-import Cardbox from '../components/Cardbox';
+import Lettermold from '../components/Lettermold';
+import Main2 from '../components/Main2';
 
 function Secondpage() {
   return (
     <>
     <Header />
-    <Cardbox />
+    <Main2 />
+    <Lettermold text= "time"/>
+    <Lettermold text= "card-title"/>
+    <Lettermold text= "card-description"/>
     </>
+
   )
 }
 

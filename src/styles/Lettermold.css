@@ -1,0 +1,15 @@
+.cards-container{
+display: flex;
+justify-content: center;
+height: 8rem;
+width: 14rem;
+background-color:#F0DEBB ;
+border-radius: 10px;
+margin-left: 20%;
+}
+
+
+
+
+
+
