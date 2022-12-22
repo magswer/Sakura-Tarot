@@ -4,12 +4,11 @@ import '../styles/main.css'
 import Button from './Button';
 //import ReactCardFlip from 'react-card-flip';
 
-function Main() {
+function Main({threecards,setThreecards}) {
     const [cards, setCards] = useState(null);
     GetCards (setCards);
 
-    const [threecards,setThreecards] = useState([])
-
+    
     const clickcard = (card) => {
         if (threecards && threecards.length < 3) {
                 setThreecards ([...threecards, {...card }])
@@ -18,11 +17,11 @@ function Main() {
             }  
             (  alert ('Ya has agregado 3 cartas'))
 
-          if (threecards && threecards.length === 2) {
-              <Button/>
-              return (alert ('Elige al menos 3 cartas'))
+         if (threecards && threecards.length === 2) {
+            <Button />
+              return 
           }
-            
+          (alert ('Elige al menos 3 cartas')) 
     } 
 
 

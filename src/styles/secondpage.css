@@ -1,0 +1,97 @@
+@import '../index.css';
+@media screen and (max-width:992px) { 
+
+    .containerCardsSecond {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+    }
+    
+.containerCardsSecondBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+    background-color: #F0DEBB ;
+    border-radius: 10px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.card-image {
+height: 20rem;
+width: 9rem;
+align-self: center;
+}
+
+.cointainerInfo {
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-content: center;
+}
+
+ h2 {
+    align-self: center;
+ }
+
+.cointainerMeaning {
+text-align: center;
+}
+
+.description{
+    color: black;
+}
+}
+
+@media screen and (max-width:1440px) { 
+
+
+    .containerCardsSecond {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .containerCardsSecondBox {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        justify-content: center;
+        background-color: #F0DEBB ;
+        border-radius: 10px;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        margin: 2rem;
+        height: 22rem; 
+        width: 20rem;
+    
+    }
+    
+    .card-image {
+    height: 10rem;
+    width: 6rem;
+    justify-self: center;
+    align-self: center;
+    }
+    
+    .cointainerInfo {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    }
+    
+     h2 {
+        align-self: center;
+     }
+    
+    .cointainerMeaning {
+    text-align: center;
+    }
+    
+    .description{
+        color: black;
+    }
+}
