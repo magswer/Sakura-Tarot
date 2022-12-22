@@ -17,14 +17,12 @@ function Main({threecards,setThreecards}) {
             }  
             (  alert ('Ya has agregado 3 cartas'))
 
-         if (threecards && threecards.length === 2) {
-            <Button />
-              return 
+          if (threecards && threecards.length === 2) {
+              <Button/>
+              return
           }
-          (alert ('Elige al menos 3 cartas')) 
+          (alert ('Elige al menos 3 cartas'))       
     } 
-
-
 
   return (
     <>

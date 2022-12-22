@@ -6,10 +6,10 @@ export class Lettermold extends Component {
     return (
       <>
       <div className="cards-container"></div>
-        <p className="tus-cartas"></p>
-        <p className="time"></p>
-        <p className="card-title"></p>
-        <p className="card-description"></p>
+      <p className="tus-cartas"></p>
+      <p className="time"></p>
+      <p className="card-title"></p>
+      <p className="card-description"></p>
       </>
     ) 
   }
