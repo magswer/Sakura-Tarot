@@ -20,12 +20,10 @@ function Main() {
 
           if (threecards && threecards.length === 2) {
               <Button/>
-              return (alert ('Elige al menos 3 cartas'))
+              return
           }
-            
+          (alert ('Elige al menos 3 cartas'))       
     } 
-
-
 
   return (
     <>
