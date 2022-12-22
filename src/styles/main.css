@@ -1,5 +1,5 @@
 @import '../index.css';
-@media screen and (max-width:992px) {
+
 
 h3 {
     margin: 1rem; 
@@ -27,9 +27,8 @@ img:hover{
     background-color: red;
     border-radius: 8px;
 }
-}
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:992px) { 
     h3 {
         margin: 1rem; 
        text-align: center;

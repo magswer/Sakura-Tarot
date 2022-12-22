@@ -1,5 +1,6 @@
 @import '../index.css';
-@media screen and (max-width:992px) { 
+
+/*@media screen and (max-width:992px) { */
 
     .containerCardsSecond {
         display: flex;
@@ -43,9 +44,9 @@ text-align: center;
 .description{
     color: black;
 }
-}
 
-@media screen and (max-width:1440px) { 
+
+@media screen and (min-width:992px) { 
 
 
     .containerCardsSecond {

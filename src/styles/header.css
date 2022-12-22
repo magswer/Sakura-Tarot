@@ -1,5 +1,5 @@
 @import '../index.css';
-@media screen and (max-width:992px) {
+
 
 header {
     background-color: var(--burgundy);
@@ -25,9 +25,8 @@ h1 {
 p {
     font-size: 1rem;
 }
-}
 
-@media screen and (max-width:1440px) { 
+@media screen and (min-width:992px) { 
     header {
         background-color: var(--burgundy);
         display: flex;

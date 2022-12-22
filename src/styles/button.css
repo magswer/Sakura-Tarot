@@ -1,5 +1,4 @@
 @import '../index.css';
-@media screen and (max-width:992px) {
 
 
     .container-button {
@@ -22,9 +21,9 @@
     button:link, button:visited, button:active{
         text-decoration: none;
       }
-}
 
-@media screen and (max-width:1440px) {
+      
+      @media screen and (min-width:992px) { 
     
     .container-button {
 
