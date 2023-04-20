@@ -9,7 +9,7 @@ function Router() {
 <BrowserRouter>
      <Routes>
       <Route path='/' element={<App/>}/>
-      <Route path='/Secondpage' element={<Secondpage/>}/>
+      <Route path='/lectura' element={<Secondpage/>}/>
     </Routes>
 </BrowserRouter>
 

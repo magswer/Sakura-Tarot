@@ -4,6 +4,9 @@ import '../styles/main.css'
 import Button from './Button';
 //import ReactCardFlip from 'react-card-flip';
 
+
+const defaultClowReverseImage = 'https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg';
+
 function Main({threecards,setThreecards}) {
     const [cards, setCards] = useState(null);
     GetCards (setCards);
@@ -31,7 +34,7 @@ function Main({threecards,setThreecards}) {
         {cards !== null
         ? cards.map((card) => ( 
            <div key= {card.id}>
-                  <img src={card.cardsReverse.clowReverse} alt= {card.spanishName} onClick ={ () => clickcard(card)}/>
+                  <img src={card.cardsReverse.clowReverse || defaultClowReverseImage} alt= {card.spanishName} onClick ={ () => clickcard(card)}/>
            </div> 
         ))
         

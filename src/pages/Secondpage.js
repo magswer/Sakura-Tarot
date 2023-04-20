@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header';
-//import Lettermold from '../components/Lettermold';
 import Main2 from '../components/Main2';
 import { useLocation } from 'react-router-dom';
 import '../styles/secondpage.css'
