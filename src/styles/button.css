@@ -16,7 +16,11 @@
         border-radius: 10px;
         justify-self: center;
         font-family: Cinzel, senrif;
+        cursor:pointer;
     }
+    a {
+        
+        text-decoration: none;}
 
     button:link, button:visited, button:active{
         text-decoration: none;
@@ -42,7 +46,12 @@
         justify-self: center;
         font-family: Cinzel, senrif;
         text-decoration: none;
+        cursor:pointer;
         
+    }
+    a {
+        
+        text-decoration: none;
     }
     button:link, button:visited, button:active{
         text-decoration: none;
